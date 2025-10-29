@@ -1,20 +1,19 @@
 {
   "name": "beta-ai-app",
   "version": "1.0.0",
-  "description": "",
-  "type": "module",
+  "description": "Beta AI App using Express and OpenAI API",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Diaa",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^2.2.0",
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
     "express": "^5.1.0",
+    "dotenv": "^17.2.3",
+    "cors": "^2.8.5",
+    "body-parser": "^2.2.0",
     "node-fetch": "^2.7.0",
     "openai": "^6.7.0"
   }
