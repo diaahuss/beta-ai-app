@@ -1,25 +1,16 @@
 {
   "name": "beta-ai-app",
   "version": "1.0.0",
-  "type": "module",
+  "description": "Beta AI app for user chat with OpenAI",
   "main": "server.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "node server.js"
-  }
-}
-{
-  "name": "beta-ai-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
@@ -29,3 +20,4 @@
     "openai": "^6.7.0"
   }
 }
+
